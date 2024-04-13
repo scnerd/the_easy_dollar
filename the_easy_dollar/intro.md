@@ -1,4 +1,0 @@
-# The Easy Dollar
-
-```{tableofcontents}
-```
