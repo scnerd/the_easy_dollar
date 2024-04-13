@@ -1,2 +1,3 @@
-(where-to-invest)=
 # Where to Invest
+
+[//]: # (TODO: [L] Write article)

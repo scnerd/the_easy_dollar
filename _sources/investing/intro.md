@@ -48,7 +48,9 @@ It's not exciting, it's not a roller coaster ride, you won't become a millionair
 
 ## Investing is for Everyone
 
-I have a separate set of articles about personal finances (coming soon), but here's a fact: on average, your net worth (the sum total of everything you own minus everything you owe) can either be going down, going nowhere, or going up.
+I have a separate set of articles about personal finances, but here's a fact: on average, your net worth (the sum total of everything you own minus everything you owe) can either be going down, going nowhere, or going up.
+
+[//]: # (TODO: [M] Link to relevant article)
 
 If your net worth is going down or is a flat line... well, there's not really a tactful way to put it. Think about that for a second, and if you're scared by what you see, [then know that there's hope](https://www.clevergirlfinance.com/blog/dave-ramsey-7-baby-steps/). Start by resolving that.
 
@@ -70,6 +72,10 @@ So don't be scared. Investing does take a little knowledge, but nothing very tec
 
 If you're aiming for retirement, consider starting with [my article on that topic](retirement-investing).
 
-If you want to get into the nitty-gritty details and actually start doing this stuff today, check out my simple investing series (coming soon).
+If you want to get into the nitty-gritty details and actually start doing this stuff today, check out my simple investing series.
 
-If you like the math'y side of this and want to go beyond the basics, or learn about what the pro's do (hedge funds and crap like that), I've got stuff for you too (coming soon). Totally optional, I don't think this is a domain that's profitable for most people (personally or financially).
+[//]: # (TODO: [M] Link to relevant article)
+
+If you like the math'y side of this and want to go beyond the basics, or learn about what the pro's do (hedge funds and crap like that), I've got stuff for you too. Totally optional, I don't think this is a domain that's profitable for most people (personally or financially).
+
+[//]: # (TODO: [M] Link to relevant article)

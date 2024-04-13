@@ -37,7 +37,7 @@ Note that these help, but don't automatically enable retirement: you might "reti
 
 ## How do I save? How much do I need to save?
 
-I'm going to stand behind [Dave Ramsey's plan here](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps), and this particular question is dealt with in Baby Step 4. (Note that this means I'm assuming you're already debt free and have a little financial cushion; if not, do those earlier baby steps.) For most people, save 15% of your family income into stock mutual funds (see the 3-fund portfolio, coming soon). The various other factors you'll be balancing are 1) finishing the other baby steps, 2) saving, investing, and working longer, 3) trying to make more money to invest, and 4) adjusting your post-retirement lifestyle. With some combination of those, you'll make it.
+I'm going to stand behind [Dave Ramsey's plan here](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps), and this particular question is dealt with in Baby Step 4. (Note that this means I'm assuming you're already debt free and have a little financial cushion; if not, do those earlier baby steps.) For most people, save 15% of your family income into stock mutual funds (see [the 3-fund portfolio](the-3-fund-portfolio)). The various other factors you'll be balancing are 1) finishing the other baby steps, 2) saving, investing, and working longer, 3) trying to make more money to invest, and 4) adjusting your post-retirement lifestyle. With some combination of those, you'll make it.
 
 The rule of thumb is to save an amount 10x your current income.
 

@@ -11,7 +11,9 @@ If you're just aiming for retirement ([or whatever you want to call "being finan
 
 Keeping to my theme of "explaining the _why_, not telling you _what_", this topic deserves an explanation for how these funds work under the hood and why that's good for you.
 
-All these funds do is internally implement the strategies I discuss in my articles on allocations and rebalancing (coming soon), [mutual fund balancing](what-are-stocks-and-bonds), and what's lightly summarized in the discussion of [the 3-fund portfolio](the-3-fund-portfolio).
+All these funds do is internally implement the strategies I discuss in my articles on allocations and rebalancing, [mutual fund balancing](what-are-stocks-and-bonds), and what's lightly summarized in the discussion of [the 3-fund portfolio](the-3-fund-portfolio).
+
+[//]: # (TODO: [M] Link to relevant article)
 
 In short, different investment vehicles have different behaviors which provide different advantages. Balancing these advantages against each other allows you to maximize your investment returns ("while managing risk", but I dislike that phrase...).
 

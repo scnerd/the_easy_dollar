@@ -11,7 +11,8 @@ Interest is almost always discussed in units of percentage gain per year (APY). 
 
 Let's set some expectations:
 
-- On debts you pay (again, see the article on the value of getting out of debt, coming soon):
+- On debts you pay (again, see the article on the value of getting out of debt):
+[//]: # (TODO: Link to relevant article)
     - Home mortgages often cost you ~4-6%
     - Car loans are ~4%
     - Credit cards can often be anywhere between 15-25% interest (or even a wider interval)
@@ -21,7 +22,7 @@ Let's set some expectations:
     - Investment real estate is really tricky to quantify, but I've seen estimates ranging from 4% to 10% depending on how you go about it
 - Inflation: typically 2-4%
 
-Inflation is an oddball here, but it's critically important to understanding how much wealth you're actually building. (I have a much more in-depth discussion of inflation and its source, coming soon.) Most of the time, I'll discuss returns without adjusting for inflation, since it's easier and eliminates yet another source of uncertainty, but the reality is that the US dollar is designed to lose value over time. If you want to adjust for inflation yourself, simply subtract the inflation rate (2-4%) from whatever APY we're discussing. For example, we might say that stocks yield 8-12% before inflation, and more like 5-9% after inflation. Some investments, like stocks, might be somewhat immune to inflation (meaning their value will likely increase more when inflation is higher) since their value is detached from the dollar, whereas others, like bonds, have values tightly tied to dollars.
+Inflation is an oddball here, but it's critically important to understanding how much wealth you're actually building. (I have a much more in-depth discussion of inflation and its source.) Most of the time, I'll discuss returns without adjusting for inflation, since it's easier and eliminates yet another source of uncertainty, but the reality is that the US dollar is designed to lose value over time. If you want to adjust for inflation yourself, simply subtract the inflation rate (2-4%) from whatever APY we're discussing. For example, we might say that stocks yield 8-12% before inflation, and more like 5-9% after inflation. Some investments, like stocks, might be somewhat immune to inflation (meaning their value will likely increase more when inflation is higher) since their value is detached from the dollar, whereas others, like bonds, have values tightly tied to dollars.
 
 Anyway, you can see that many investments range around 5-10% returns. That may seem very low. It can be made worse by volatility. But stick around, it gets better.
 
@@ -31,7 +32,9 @@ While most _debts_ that you can take on have a constant, fixed interest rate (th
 
 Here's what's going on. Let's say you invest \$1,000 in an all-stock index fund. While history tells us that you can expect a steady 8-12% return _in the long run_, it may do anything between -11% and +33% in a given, typical year ([here's an awesome calculator for exploring this concept](https://dqydj.com/sp-500-historical-return-calculator/)). Those returns average out to 8-12% if you can leave your money invested, but what happens if you start pulling your money out?
 
-Let's say you have a mediocre year, and your \$1,000 in stocks drops to \$900 (-10%). You have a minor car emergency (though note that this scenario is exactly the kind of thing an all-cash emergency fund helps you avoid, coming soon), and decide to pull \$100 out of stocks. You now have \$800 invested.
+Let's say you have a mediocre year, and your \$1,000 in stocks drops to \$900 (-10%). You have a minor car emergency (though note that this scenario is exactly the kind of thing an all-cash emergency fund helps you avoid), and decide to pull \$100 out of stocks. You now have \$800 invested.
+
+[//]: # (TODO: [M] Link to relevant article)
 
 The next year is great, with +30% returns. \$800 \* 1.3 = \$1,040. In two years, you've gained a return of \$40, or \$20/yr, or 2% on average.
 
@@ -41,7 +44,9 @@ Let's try one more scenario. Let's say we get lucky, investing our whole \$1,000
 
 ![](./images/compound-interest-06.png)
 
-Ideally, of course, it would be nice to leave _all_ the money invested and keep the \$1,170. However, if we do that at the expense of having sufficient cash reserves to _keep_ that money invested when life comes knocking, then we're at the whims of fate. At that point, we're gambling, because we don't know when the car transmission will go out or our home water heater will fail. We're just hoping it occurs on high years. By keeping some cash out to protect us from touching our investments, we increase our chances of higher, stable returns. (How much cash? See the overview of personal finances, coming soon.)
+Ideally, of course, it would be nice to leave _all_ the money invested and keep the \$1,170. However, if we do that at the expense of having sufficient cash reserves to _keep_ that money invested when life comes knocking, then we're at the whims of fate. At that point, we're gambling, because we don't know when the car transmission will go out or our home water heater will fail. We're just hoping it occurs on high years. By keeping some cash out to protect us from touching our investments, we increase our chances of higher, stable returns. (How much cash? See the overview of personal finances.)
+
+[//]: # (TODO: [M] Link to relevant article)
 
 Before we move on, it's worth noting that this situation can work to our advantage as well. Money _invested_ during the low periods will produce more profits than money invested during the high periods. That said, money invested _sooner_ is almost always better than money invested _later_, so trying to time the market by holding money out and waiting for a valley is, again, gambling and likely to get you into trouble. Historically, trying to time the market isn't worth it, just invest money and then don't touch it.
 
@@ -77,6 +82,6 @@ Another handy trick in estimating the results of your investments is that each d
 
 ## How do I compound my investments?
 
-So this is all great in theory, but practically, how do you actually make this happen? Well, assuming you already have opened an investment account (here's my article on doing so if you haven't yet, coming soon), you're probably already doing this.
+So this is all great in theory, but practically, how do you actually make this happen? Well, assuming you already have [opened an investment account](where-to-invest), you're probably already doing this.
 
 Most investments, when you make them, will either default to compounding or offer you an option such as "automatically reinvest dividends". Just make sure that anytime your investments generate income (not merely increase in value), that that income is used, as soon as possible, to purchase more of the same investments. Again, this is typically the default behavior in most mutual funds if you don't specifically request otherwise.

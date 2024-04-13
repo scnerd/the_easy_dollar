@@ -28,4 +28,4 @@ The Easy Dollar is not a typical blog (at least, not yet). There won't be new po
 
 Husband, programmer, and financially opinionated, I have a passion for simplifying things and sharing my loves with others. I like handling money, and I like feeling in control of my finances. Navigating the money landscape isn't as hard as people make it out to be: you can do it.
 
-[//]: # (TODO: Discuss that my goal is more to establish intuition than write a textbook.)
+[//]: # (TODO: [M] Discuss that my goal is more to establish intuition than write a textbook.)
