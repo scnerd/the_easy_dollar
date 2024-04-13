@@ -1,8 +1,9 @@
+(roth-vs-traditional)=
 # Roth vs. Traditional
 
 If you've ever learned about retirement savings account, you've likely been barraged by a flurry of words and terms with weird differences attached to each. Let's break down the big categories and see the major differences between each.
 
-First, there is the legal code or investment name: [401k, 403b, IRA, TSP, and probably others](Vehicles). They're basically all the same thing. Each has slight differences, but those are insignificant for the current discussion. In every case, you end up with a pool of money that can be invested in a manner you control. The money is truly yours, it won't vanish if Social Security or a pension fund goes under, it belongs to you like a bank account or any other investment.
+First, there is the legal code or investment name: [401k, 403b, IRA, TSP, and probably others](retirement-vehicles). They're basically all the same thing. Each has slight differences, but those are insignificant for the current discussion. In every case, you end up with a pool of money that can be invested in a manner you control. The money is truly yours, it won't vanish if Social Security or a pension fund goes under, it belongs to you like a bank account or any other investment.
 
 And like any other investment, you need to put retirement savings into funds that will grow. In every case, you should put the money in, let it grow until you're legally allowed to take it out, and then withdraw it as you need it. I'm not going to get into taking loans against these investments or pulling money out early, because those are terrible ideas for reasons I'll discuss elsewhere.
 

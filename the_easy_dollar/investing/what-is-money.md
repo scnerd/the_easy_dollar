@@ -1,1 +1,2 @@
-# Heading: investing/what-is-money.md
+(what-is-money)=
+# What is Money?
