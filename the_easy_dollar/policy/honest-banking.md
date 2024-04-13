@@ -1,1 +1,2 @@
-# Heading: policy/honest-banking.md
+(honest-banking)=
+# Honest Banking

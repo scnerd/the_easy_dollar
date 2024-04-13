@@ -4,7 +4,7 @@ There are so many stigmas associated with the concept of investing.
 
 - "Isn't that something rich people do?"
 - "I invest in treasury bonds, the stock market's basically just gambling."
-- "Oh yeah, I heard about a guy that invested in Bitcoin and made $\*\_!%# dollars and retired at 25!"
+- "Oh yeah, I heard about a guy that invested in Bitcoin and made \$\*\_!%# dollars and retired at 25!"
 - "I wish I could invest, but I just don't make enough."
 - "I'm not really sure about investing, but I save money into a high-yield savings account."
 

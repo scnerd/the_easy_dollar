@@ -1,1 +1,2 @@
-# Heading: personal-finances/budgeting.md
+(budgeting)=
+# Budgeting

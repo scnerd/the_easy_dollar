@@ -1,1 +1,2 @@
-# Heading: personal-finances/budgeting/what-is-a-0-balance-budget.md
+(what-is-a-0-balance-budget)=
+# What Is a 0 Balance Budget?

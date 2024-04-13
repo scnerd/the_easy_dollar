@@ -1,1 +1,2 @@
-# Heading: personal-finances/budgeting/marital-harmony.md
+(marital-harmony)=
+# Marital Harmony

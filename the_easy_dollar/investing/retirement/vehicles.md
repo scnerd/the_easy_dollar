@@ -30,7 +30,7 @@ A good rule of thumb ([following Ramsey's advice here](https://www.ramseysolutio
 
 7. Traditional 401k.
 
-Between a 401k and an IRA, you won't hit the investment limits unless you're making a tremendous paycheck, like $150K/yr. or more. If you're married and both working, the limit's even higher since you can both have 401k's and IRA's.
+Between a 401k and an IRA, you won't hit the investment limits unless you're making a tremendous paycheck, like \$150K/yr. or more. If you're married and both working, the limit's even higher since you can both have 401k's and IRA's.
 
 Alright, now take a breath. This isn't a topic worth geeking out about. These vehicles are just various ways you might have to avoid paying taxes on investment growth (which is a really huge boost). Understand your options (and hire an advisor if needed), set your plan, get your money automatically investing itself, then move on with your life. This just isn't all that important.
 

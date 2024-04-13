@@ -1,1 +1,2 @@
-# Heading: investing/tools-and-resources.md
+(tools-and-resources)=
+# Tools and Resources

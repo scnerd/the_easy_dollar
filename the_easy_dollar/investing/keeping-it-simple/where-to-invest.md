@@ -1,1 +1,2 @@
-# Heading: investing/keeping-it-simple/where-to-invest.md
+(where-to-invest)=
+# Where to Invest

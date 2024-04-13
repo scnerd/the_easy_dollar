@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper.md
+(digging-deeper)=
+# Digging Deeper

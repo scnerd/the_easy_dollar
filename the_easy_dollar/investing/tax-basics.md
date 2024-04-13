@@ -1,1 +1,2 @@
-# Heading: investing/tax-basics.md
+(tax-basics)=
+# Tax Basics

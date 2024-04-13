@@ -16,11 +16,11 @@ Note too that "average" and "annualized" returns aren't the same thing, coincide
 
 Let's start with a simple example.
 
-- You invest $100 today, year 0.
+- You invest \$100 today, year 0.
 
-- By year 1, your investment is worth $50. Your return rate over the previous year was -50%.
+- By year 1, your investment is worth \$50. Your return rate over the previous year was -50%.
 
-- By year 2, your investment is worth $100. Your return rate over the previous year was 200%.
+- By year 2, your investment is worth \$100. Your return rate over the previous year was 200%.
 
 Your average return rate is just the average of each year's return rates: (-50% + 200%) / 2 = 75%. What a return rate!
 
@@ -28,7 +28,7 @@ But wait, that can't be right. You made no money at all, but you had a huge posi
 
 _(Math note: the main issue here is that returns are multiplicative rather than additive. That means that the correct way to average things is the geometric mean, not the arithmetic mean. Annualized return is just the geometric mean of the returns.)_
 
-Annualized return tells you what return you'd need per-year, if you had a constant annual return, to get you from the starting balance to the ending balance. In this case, we went from $100 in the beginning to $100 in the end, over two years. Clearly, that's just a 0% return. You can run [the equation here](https://www.investopedia.com/terms/a/annualized-total-return.asp) if you want.
+Annualized return tells you what return you'd need per-year, if you had a constant annual return, to get you from the starting balance to the ending balance. In this case, we went from \$100 in the beginning to \$100 in the end, over two years. Clearly, that's just a 0% return. You can run [the equation here](https://www.investopedia.com/terms/a/annualized-total-return.asp) if you want.
 
 ## Annualizing Returns With Withdrawals
 
@@ -36,35 +36,35 @@ This example gets more complicated when you have not just percentage returns, bu
 
 In the first scenario, we'll have a no-risk 10% investment. Every year, we get our 10% paycheck without any variance. We'll withdraw some money mid-way and see what happens:
 
-- We start with $100 invested.
+- We start with \$100 invested.
 
-- After the first year, our 10% return means we have $110 invested. We choose to withdraw $50 from that, leaving $60 invested.
+- After the first year, our 10% return means we have \$110 invested. We choose to withdraw \$50 from that, leaving \$60 invested.
 
-- After the second year, our 10% return means we have $66 invested. We withdraw another $50, leaving $16 invested.
+- After the second year, our 10% return means we have \$66 invested. We withdraw another \$50, leaving\$16 invested.
 
-- After the third year, we have $17.60 invested, which we withdraw for a final amount of $117.60.
+- After the third year, we have\$17.60 invested, which we withdraw for a final amount of\$117.60.
 
 Let's just plug these values into [a relevant calculator](https://www.buyupside.com/calculators/annualizedreturn.htm) and find that our annualized return was 5.5%. The reduction in return was caused by our early withdrawals. Had we left the money alone, it would've yielded and annualized 10% return.
 
 Alright, let's consider a high-risk 10% investment. This investment yields a consistent annualized rate of 10% long-term, but swings massive amounts each year along the way.
 
-- We start with $100 invested.
+- We start with\$100 invested.
 
-- After the first year, we get a -25% return, leaving us at $75 invested. We choose to withdraw $50 from that, leaving $25.
+- After the first year, we get a -25% return, leaving us at\$75 invested. We choose to withdraw \$50 from that, leaving \$25.
 
-- The next year, the investment returns 161%, leaving us with $40.25, which we withdraw for a final amount of $90.25.
+- The next year, the investment returns 161%, leaving us with \$40.25, which we withdraw for a final amount of \$90.25.
 
-Ouch. The fund we invested in has an annualized return rate of 10%--if we'd left the initial $100 alone, we would've had ~$121 after the two years--but our timing on that first withdrawal really hurt us. So even though the fund yielded 10% annualized over those two years, our personal return was -5%.
+Ouch. The fund we invested in has an annualized return rate of 10%--if we'd left the initial \$100 alone, we would've had ~\$121 after the two years--but our timing on that first withdrawal really hurt us. So even though the fund yielded 10% annualized over those two years, our personal return was -5%.
 
 Note too that our behavior was exactly the same as in the first scenario. However, the way our behavior interacted with the volatility meant that we got -5% instead of 5.5%--a net difference of -10.5% worse annualized return just because we did the exact same thing in a volatile market instead of in a stable market, even with identical annualized returns on the funds we were investing in. That is, the returns for both investments were the same, but the risk-adjusted returns were different, and that translated into dramatically lower _real_ returns for us.
 
 Finally, let's consider a third scenario with the same high-risk investment:
 
-- We start with $50 invested, and save the other $50 for later.
+- We start with \$50 invested, and save the other \$50 for later.
 
-- After the first year, we get a -25% return, leaving us $37.50 invested. We invest our second $50, for a total of $87.50.
+- After the first year, we get a -25% return, leaving us \$37.50 invested. We invest our second \$50, for a total of \$87.50.
 
-- The next year, the investment returns 161%, leaving us with ~$141. We withdraw it all.
+- The next year, the investment returns 161%, leaving us with ~\$141. We withdraw it all.
 
 Again, the fund had an annualized yield of 10%, but our personal return was nearly 19%! We nearly doubled our returns by investing during the bad year instead of investing all up front. This is the same market as scenario B above with the same amount of money to invest, but we got even better yields than in scenario A above. The fund's annualized return was _identical_ in all three scenarios, but the differences in volatility _and_ how we interacted with that volatility resulted in three dramatically different returns on our particular investments.
 
@@ -72,7 +72,7 @@ Again, the fund had an annualized yield of 10%, but our personal return was near
 
 "Ok", you say, "but let's just talk long-term yields. I pay 4% into my debt per year and expect an annualized return of 10% from my investments. Long-term, those yields are stable, so why pay off debt now instead of investing more earlier?"
 
-Let's flip this equation. Let's say you're the lender instead of the borrower. You have $100,000 burning a hole in your pocket, and you want to invest it. Joe Schmoe comes and asks to borrow $100,000 to buy a house, and is willing to pay you 4% interest; Joe's a good bet and is very likely to pay his debt payments. Alternatively, you could take that $100,000 and invest it in a good mutual fund and get a 10% yield. Why on earth would you lend it to Joe instead of invest it in a mutual fund?
+Let's flip this equation. Let's say you're the lender instead of the borrower. You have \$100,000 burning a hole in your pocket, and you want to invest it. Joe Schmoe comes and asks to borrow \$100,000 to buy a house, and is willing to pay you 4% interest; Joe's a good bet and is very likely to pay his debt payments. Alternatively, you could take that \$100,000 and invest it in a good mutual fund and get a 10% yield. Why on earth would you lend it to Joe instead of invest it in a mutual fund?
 
 As a lender, there are two things going on here: 1) you're always withdrawing, because otherwise you're not making money by paying yourself or your staff; and 2) the reliability of the investment matters. We've already visited the effect of steady withdrawals, and noted that withdrawing in bad years is way worse than withdrawing in good years, and can even be worse than never having invested money in the first place. So people doing lots of investing need to consider not just the long-term yields, but what _stable_ yield they can derive from those investments.
 
@@ -88,7 +88,7 @@ The point here is that even though the long-term yields for the S&P 500 may look
 
 ## The 4% Rule
 
-Ok, but we still haven't found an intuitive argument for why _you_, an individual with some debt and some cash, should pay off the debt instead of investing. Or, at least, any answers are obscured by non-intuitive math. If I have $100,000 in 4% debt and $100,000 in 10% mutual funds, isn't that better than paying off my debt? After 30 years, I'll have $1.6M in my investments and, even if I only ever paid interest on my debt, I'd only have spent $120K in interest. That's like $1.5M of profit!
+Ok, but we still haven't found an intuitive argument for why _you_, an individual with some debt and some cash, should pay off the debt instead of investing. Or, at least, any answers are obscured by non-intuitive math. If I have \$100,000 in 4% debt and \$100,000 in 10% mutual funds, isn't that better than paying off my debt? After 30 years, I'll have \$1.6M in my investments and, even if I only ever paid interest on my debt, I'd only have spent $120K in interest. That's like $1.5M of profit!
 
 The most intuitive way to understand risk-adjusted returns at an individual level is to consider the [4% rule](https://www.investopedia.com/terms/f/four-percent-rule.asp). This rule states that, even with your money invested in the stock market, with annualized yields like 8-10%, when you want to convert your investment into income, you should only ever withdraw money at a rate of ~4% or else you'll collapse your investment and end up with nothing. (I'm aware that this might be more like 5% or 6%, but the significant drop from annualized long-term yield remains.)
 

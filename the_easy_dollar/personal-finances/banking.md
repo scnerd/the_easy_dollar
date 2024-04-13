@@ -1,1 +1,2 @@
-# Heading: personal-finances/banking.md
+(banking)=
+# Banking

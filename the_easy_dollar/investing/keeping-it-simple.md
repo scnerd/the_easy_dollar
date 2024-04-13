@@ -1,1 +1,2 @@
-# Heading: investing/keeping-it-simple.md
+(keeping-it-simple)=
+# Keeping It Simple

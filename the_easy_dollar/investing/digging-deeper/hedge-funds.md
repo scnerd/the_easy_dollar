@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper/hedge-funds.md
+(hedge-funds)=
+# Hedge Funds

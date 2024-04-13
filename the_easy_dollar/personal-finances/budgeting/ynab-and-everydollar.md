@@ -1,1 +1,2 @@
-# Heading: personal-finances/budgeting/ynab-and-everydollar.md
+(ynab-and-everydollar)=
+# YNAB and EveryDollar

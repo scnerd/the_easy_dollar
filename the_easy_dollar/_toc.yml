@@ -90,7 +90,7 @@ parts:
       - file: investing/digging-deeper.md
         sections:
         - file: investing/digging-deeper/technical-analysis-and-trading.md
-        - file: investing/digging-deeper/how-the-big-kids-do-it-high-frequency-trading.md
+        - file: investing/digging-deeper/high-frequency-trading.md
         - file: investing/digging-deeper/how-free-brokerages-make-money.md
         - file: investing/digging-deeper/hedge-funds.md
         - file: investing/digging-deeper/alpha-and-beta-parameters.md

@@ -1,1 +1,2 @@
-# Heading: investing/alternatives-to-stocks-and-bonds.md
+(alternatives-to-stocks-and-bonds)=
+# Alternatives to Stocks and Bonds
