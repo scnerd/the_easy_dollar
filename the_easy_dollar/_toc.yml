@@ -81,7 +81,7 @@ parts:
         - file: investing/keeping-it-simple/1-fund-portfolio.md
         - file: investing/keeping-it-simple/3-fund-portfolio.md
         - file: investing/keeping-it-simple/allocations-and-rebalancing.md
-        - file: investing/alternatives-to-stocks-and-bonds.md
+        - file: investing/keeping-it-simple/alternatives-to-stocks-and-bonds.md
       - file: investing/tax-basics.md
         sections:
         - file: investing/tax-basics/what-you-owe-taxes-for-in-non-retirement.md
@@ -96,7 +96,7 @@ parts:
         - file: investing/digging-deeper/alpha-and-beta-parameters.md
         - file: investing/digging-deeper/active-vs-passive-management.md
         - file: investing/digging-deeper/market-sectors.md
-        - file: investing/what-is-money.md
+        - file: investing/digging-deeper/what-is-money.md
       - file: investing/tools-and-resources.md
   - caption: Personal Finances
     chapters:

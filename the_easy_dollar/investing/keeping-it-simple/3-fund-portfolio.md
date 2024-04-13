@@ -1,3 +1,4 @@
+(the-3-fund-portfolio)=
 # The 3-Fund Portfolio
 
 Alright, you're ready to invest some money. You open an investment account, either a retirement account or a... I dunno what to call it, a non-retirement account? A liquid account? A brokerage account? Just, "investments"? Whatever. You are able to buy investments. Which ones do you buy?
@@ -20,7 +21,7 @@ Second, how much to put into each fund? While the two articles I link offer spec
 
 ## Basic Diversification
 
-Before anything else, make sure to read the primer on investment allocation and rebalancing (coming soon). You may also benefit from the discussion of [what are stocks, bonds, and mutual funds](https://dollarsexplained.wordpress.com/2021/04/07/what-are-stocks-and-bonds/). These two articles introduce you to the most common investment vehicles, stocks and bonds, how they act in general, and how you can combine them into a diverse portfolio easily using broad mutual funds.
+Before anything else, make sure to read the primer on investment allocation and rebalancing (coming soon). You may also benefit from the discussion of [what are stocks, bonds, and mutual funds](what-are-stocks-and-bonds). These two articles introduce you to the most common investment vehicles, stocks and bonds, how they act in general, and how you can combine them into a diverse portfolio easily using broad mutual funds.
 
 Ok. So you know what stocks and bonds are, and you know that stocks have higher returns and higher volatility, and that bonds have lower returns and lower volatility. (Note that all generalizations like those are "historical", there's at least a century of data to back up those statements.) You also know that stocks, being tiny pieces of ownership in companies, can either represent US companies or international companies. Is that a US-centric way of looking at things? Totally. But if you're a US investor, that's the world you live in.
 

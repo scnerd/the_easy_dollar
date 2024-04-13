@@ -1,1 +1,0 @@
-# Heading: cryptocurrency/introduction.md
