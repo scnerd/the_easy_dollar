@@ -78,10 +78,10 @@ parts:
         - file: investing/keeping-it-simple/what-are-stocks-and-bonds.md
         - file: investing/keeping-it-simple/the-power-of-compound-growth.md
         - file: investing/keeping-it-simple/where-to-invest.md
-      - file: investing/3-fund-portfolio.md
-        sections:
-        - file: investing/3-fund-portfolio/allocations-and-rebalancing.md
-      - file: investing/alternatives-to-stocks-and-bonds.md
+        - file: investing/keeping-it-simple/1-fund-portfolio.md
+        - file: investing/keeping-it-simple/3-fund-portfolio.md
+        - file: investing/keeping-it-simple/allocations-and-rebalancing.md
+        - file: investing/alternatives-to-stocks-and-bonds.md
       - file: investing/tax-basics.md
         sections:
         - file: investing/tax-basics/what-you-owe-taxes-for-in-non-retirement.md
@@ -96,7 +96,8 @@ parts:
         - file: investing/digging-deeper/alpha-and-beta-parameters.md
         - file: investing/digging-deeper/active-vs-passive-management.md
         - file: investing/digging-deeper/market-sectors.md
-      - file: investing/what-is-money.md
+        - file: investing/what-is-money.md
+      - file: investing/tools-and-resources.md
   - caption: Personal Finances
     chapters:
       - file: personal-finances/budgeting.md
@@ -104,22 +105,23 @@ parts:
         - file: personal-finances/budgeting/what-is-a-0-balance-budget.md
         - file: personal-finances/budgeting/ynab-and-everydollar.md
         - file: personal-finances/budgeting/why-i-d-avoid-mint-and-such.md
+        - file: personal-finances/budgeting/marital-harmony.md
       - file: personal-finances/banking.md
       - file: personal-finances/insurance.md
-  - caption: Cryptocurrency
-    chapters:
-      - file: cryptocurrency/introduction.md
-        sections:
-        - file: cryptocurrency/introduction/what-is-crypto.md
-        - file: cryptocurrency/introduction/why-should-you-care.md
-        - file: cryptocurrency/introduction/why-shouldn-t-you-get-involved.md
-        - file: cryptocurrency/introduction/why-should-you-get-involved.md
-      - file: cryptocurrency/wallets-and-exchanges.md
-        sections:
-        - file: cryptocurrency/wallets-and-exchanges/finding-us-compliant-companies.md
-        - file: cryptocurrency/wallets-and-exchanges/banks-like-nexo-vs-exchanges-like-coinbase-or-binance.md
-        - file: cryptocurrency/wallets-and-exchanges/personal-wallet-software-hardware.md
-      - file: cryptocurrency/how-to-avoid-fees.md
+#  - caption: Cryptocurrency
+#    chapters:
+#      - file: cryptocurrency/introduction.md
+#        sections:
+#        - file: cryptocurrency/introduction/what-is-crypto.md
+#        - file: cryptocurrency/introduction/why-should-you-care.md
+#        - file: cryptocurrency/introduction/why-shouldn-t-you-get-involved.md
+#        - file: cryptocurrency/introduction/why-should-you-get-involved.md
+#      - file: cryptocurrency/wallets-and-exchanges.md
+#        sections:
+#        - file: cryptocurrency/wallets-and-exchanges/finding-us-compliant-companies.md
+#        - file: cryptocurrency/wallets-and-exchanges/banks-like-nexo-vs-exchanges-like-coinbase-or-binance.md
+#        - file: cryptocurrency/wallets-and-exchanges/personal-wallet-software-hardware.md
+#      - file: cryptocurrency/how-to-avoid-fees.md
   - caption: Policy
     chapters:
       - file: policy/the-federal-reserve.md

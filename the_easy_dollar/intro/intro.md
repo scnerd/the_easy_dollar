@@ -21,3 +21,11 @@ Do you feel like you've been spun around and set free in a minefield of financia
 I'm not from the government. And I'm not here to help. I'm here to teach you to help yourself. I'm here to get you to a spot where you feel in control and competent to either set out on your own or choose advisors to walk with you.
 
 The Easy Dollar is not a typical blog (at least, not yet). There won't be new posts each week, and I won't ask you to subscribe. I'm going to put the information on here that I think everyone needs to know, and add to it or update articles only when I think it's needed. Consider this a reference to guide you into the world of managing your finances. I will link you to sources I trust, and at every turn I'll try to share with you why I trust them. I'll point out trends that I recommend avoiding, and why I think you should. And in the end, my goal is for you to leave both competent and confident to choose the best path for yourself and your family.
+
+## About the Author
+
+# About the Author
+
+Husband, programmer, and financially opinionated, I have a passion for simplifying things and sharing my loves with others. I like handling money, and I like feeling in control of my finances. Navigating the money landscape isn't as hard as people make it out to be: you can do it.
+
+[//]: # (TODO: Discuss that my goal is more to establish intuition than write a textbook.)
