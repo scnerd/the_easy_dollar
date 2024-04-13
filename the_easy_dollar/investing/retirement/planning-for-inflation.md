@@ -1,12 +1,14 @@
 # Planning for Inflation
 
-Inflation is a controversial topic (see my discussion of the Federal Reserve, coming soon), but the reality right now is that the US dollar is inflationary, as are most currencies around the world. That means that a dollar tomorrow isn't worth a dollar today, and that has implications for long-term saving and investing.
+Inflation is a controversial topic (see my discussion of [the Federal Reserve](the-federal-reserve), but the reality right now is that the US dollar is inflationary, as are most currencies around the world. That means that a dollar tomorrow isn't worth a dollar today, and that has implications for long-term saving and investing.
 
 ## What is inflation?
 
 Do you remember when the dollar menu at McDonalds had more options? Or when Subway started the "\$5 Footlong" campaign? Or when gas cost less than \$2 per gallon (or, if you're from a generation prior to mine, \$1 per gallon)? Or have you watched an older movie where candy cost a penny and many goods cost a quarter? Whatever happened to all that? And why does everything keep getting more expensive?
 
-The US Dollar (USD) is a man-made, unbacked currency (or "fiat currency"), meaning that there's no real limit to how many can exist and that there's no fixed asset that a dollar can be traded for (and no, merely fixing the price of gold in USD doesn't solve the problem). It derives value from the government accepting it for tax payment and because they'll throw you in prison if you refuse to accept it as payment from others. As such, it exists as a tradable commodity on the open market, and behaves like any other commodity, following the laws of supply and demand (coming soon).
+The US Dollar (USD) is a man-made, unbacked currency (or "fiat currency"), meaning that there's no real limit to how many can exist and that there's no fixed asset that a dollar can be traded for (and no, merely fixing the price of gold in USD doesn't solve the problem). It derives value from the government accepting it for tax payment and because they'll throw you in prison if you refuse to accept it as payment from others. As such, it exists as a tradable commodity on the open market, and behaves like any other commodity, following the laws of supply and demand.
+
+[//]: # (TODO: [M] Link to relevant article)
 
 It may be easier to understand this concept by simply looking at other currencies around the world. Let's consider the Japanese Yen. In Japan, a new car costs something like ¥1,000,000 (I'm working on some loose data here, but just accept the order of magnitude and work with me here). Why so much? Well actually, that's pretty cheap, since ¥1,000,000 is equivalent to something like \$10,000, which is a bit cheaper than most new cars in the states. But why are a million Yen equivalent to 100x fewer US Dollars? Because there are more of Yen than Dollars in circulation. Goods and services are available in Japan just as plentifully as they are in the US, but there are 100x more Yen around than there are USD in an equivalent situation in the US. That means that people attach 100x less value to a Yen, and are willing to pay 100x more of them for the same good or service.
 
@@ -16,7 +18,7 @@ That is, the value of goods (cars, stocks, gold, TV's, etc.) remains relatively 
 
 Ok, so the price, in US Dollars, of a car is determined not merely by the car and the buyer, but also by the relative value of the US Dollar against all the goods it can buy. If _either_ the relative value of the car goes up (say, it becomes a collectible) _or_ the value of the dollar goes down (more US Dollars enter circulation), then the price goes up.
 
-What causes more US Dollars to enter circulation? The Federal Reserve, and government debt. More on that elsewhere (coming soon).
+What causes more US Dollars to enter circulation? [The Federal Reserve](the-federal-reserve), and government debt.
 
 ## How does inflation affect me?
 
