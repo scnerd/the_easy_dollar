@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper/alpha-and-beta-parameters.md
+(alpha-and-beta-parameters)=
+# Alpha and Beta Parameters

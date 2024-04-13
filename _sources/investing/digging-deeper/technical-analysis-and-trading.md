@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper/technical-analysis-and-trading.md
+(technical-analysis-and-trading)=
+# Technical Analysis and Trading

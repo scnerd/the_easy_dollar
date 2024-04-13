@@ -1,1 +1,2 @@
-# Heading: personal-finances/budgeting/why-i-d-avoid-mint-and-such.md
+(why-i-d-avoid-mint-and-such)=
+# Why I'd Avoid Mint and Such

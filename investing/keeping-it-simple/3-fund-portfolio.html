@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The 3-Fund Portfolio &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=36754332"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-84YRDMXXVK"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-84YRDMXXVK');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-84YRDMXXVK');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'investing/keeping-it-simple/3-fund-portfolio';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Allocations and Rebalancing" href="allocations-and-rebalancing.html" />
+    <link rel="prev" title="The 1-Fund Portfolio" href="1-fund-portfolio.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    The Easy Dollar
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../intro/intro.html">Introduction</a></li>
+
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Investing</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">What Is (and isn’t) Investing</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../retirement.html">Retirement Investing</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../retirement/vehicles.html">401Ks and the other things</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../retirement/roth-v-traditional.html">Roth vs. Traditional</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../retirement/planning-for-inflation.html">Planning for Inflation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../retirement/the-myth-of-debt-interest-rates.html">The Myth of Debt Interest Rates</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../keeping-it-simple.html">Keeping It Simple</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="what-are-stocks-and-bonds.html">What Are Stocks and Bonds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="the-power-of-compound-growth.html">The Power of Compound Growth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="where-to-invest.html">Where to Invest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1-fund-portfolio.html">The 1-Fund Portfolio</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">The 3-Fund Portfolio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="allocations-and-rebalancing.html">Allocations and Rebalancing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alternatives-to-stocks-and-bonds.html">Alternatives to Stocks and Bonds</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tax-basics.html">Tax Basics</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tax-basics/what-you-owe-taxes-for-in-non-retirement.html">What You Owe in Taxes In Non-Retirement Accounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tax-basics/retirement-fund-taxes.html">Retirement Fund Taxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tax-basics/why-tax-free-funds-probably-arent-worth-it.html">Why Tax-Free Funds Probably Aren’t Worth It</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../digging-deeper.html">Digging Deeper</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/technical-analysis-and-trading.html">Technical Analysis and Trading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/high-frequency-trading.html">How the Big Kids Do It with High-Frequency Trading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/how-free-brokerages-make-money.html">How Free Brokerages Make Money</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/hedge-funds.html">Hedge Funds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/alpha-and-beta-parameters.html">Alpha and Beta Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/active-vs-passive-management.html">Active vs. Passive Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/market-sectors.html">Market Sectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../digging-deeper/what-is-money.html">What is Money?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tools-and-resources.html">Tools and Resources</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Personal Finances</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../personal-finances/budgeting.html">Budgeting</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../personal-finances/budgeting/what-is-a-0-balance-budget.html">What Is a 0 Balance Budget?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../personal-finances/budgeting/ynab-and-everydollar.html">YNAB and EveryDollar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../personal-finances/budgeting/why-i-d-avoid-mint-and-such.html">Why I’d Avoid Mint and Such</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../personal-finances/budgeting/marital-harmony.html">Marital Harmony</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../personal-finances/banking.html">Banking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../personal-finances/insurance.html">Insurance</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Policy</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../policy/the-federal-reserve.html">The Federal Reserve</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../policy/fractional-reserve-banking.html">Fractional Reserve Banking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../policy/honest-banking.html">Honest Banking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../policy/the-gold-standard.html">The Gold Standard</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Finvesting/keeping-it-simple/3-fund-portfolio.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/investing/keeping-it-simple/3-fund-portfolio.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>The 3-Fund Portfolio</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-diversification">Basic Diversification</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#picking-specific-funds">Picking Specific Funds</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-t-this-be-simpler">Can’t this be simpler?</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="the-3-fund-portfolio">
+<span id="id1"></span><h1>The 3-Fund Portfolio<a class="headerlink" href="#the-3-fund-portfolio" title="Link to this heading">#</a></h1>
+<p>Alright, you’re ready to invest some money. You open an investment account, either a retirement account or a… I dunno what to call it, a non-retirement account? A liquid account? A brokerage account? Just, “investments”? Whatever. You are able to buy investments. Which ones do you buy?</p>
+<p>If you’re looking for the quick answer, I’ll give you two options.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.bogleheads.org/wiki/Three-fund_portfolio">The Bogleheads community recommends the following three</a>:</p>
+<ul>
+<li><p>Total (US) stock market index fund</p></li>
+<li><p>Total international stock market index fund</p></li>
+<li><p>Total bond market index fund</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.ramseysolutions.com/retirement/how-to-invest-in-mutual-funds">Ramsey recommends the following four</a> (sorry, I cheated):</p>
+<ul>
+<li><p>Growth</p></li>
+<li><p>Growth &amp; Income</p></li>
+<li><p>Aggressive Growth</p></li>
+<li><p>International</p></li>
+</ul>
+</li>
+</ul>
+<p>First off, these aren’t specific mutual funds, they’re descriptions. That said, no matter which investment firm you’re going through, you can probably find a small number of offerings that match each of the above descriptions.</p>
+<p>Second, how much to put into each fund? While the two articles I link offer specific allocations, I’m going to walk you through <em>why</em> those are good allocations.</p>
+<section id="basic-diversification">
+<h2>Basic Diversification<a class="headerlink" href="#basic-diversification" title="Link to this heading">#</a></h2>
+<p>Before anything else, make sure to read the primer on investment allocation and rebalancing (coming soon). You may also benefit from the discussion of <a class="reference internal" href="what-are-stocks-and-bonds.html"><span class="doc std std-doc">what are stocks, bonds, and mutual funds</span></a>. These two articles introduce you to the most common investment vehicles, stocks and bonds, how they act in general, and how you can combine them into a diverse portfolio easily using broad mutual funds.</p>
+<p>Ok. So you know what stocks and bonds are, and you know that stocks have higher returns and higher volatility, and that bonds have lower returns and lower volatility. (Note that all generalizations like those are “historical”, there’s at least a century of data to back up those statements.) You also know that stocks, being tiny pieces of ownership in companies, can either represent US companies or international companies. Is that a US-centric way of looking at things? Totally. But if you’re a US investor, that’s the world you live in.</p>
+<p>For maximum growth, accepting moderate volatility, you’ll want most of your money in stocks, and most of that in US stocks. How much is “most”? <a class="reference external" href="https://investor.vanguard.com/investing/how-to-invest/model-portfolio-allocation">Here’s a comparison from Vanguard for specific percentage</a>. Allow me to generalize for a moment: their 70% stock average return is 9.4%, and their 100% return is 10.2%. A the end of the day, it hardly matters which of those you get. Pick whatever makes you happier, you’ll get ~10% returns.</p>
+<p>I’ll note here that you’ll often hear investment advisors recommend a shift toward “mostly” bonds as you near retirement. They recommend this to reduce volatility and ensure that, when you hit “retirement age”, you’ll have as much money as you expect. This is fine advice, and probably the right decision for most people. Whether or not that’s what <em>you</em> do is up to you. I’m nowhere near the point of making that decision yet, but I expect to have enough investment growth at that point that I’ll probably keep the higher returns and higher volatility, and use other mechanisms to make sure I don’t withdraw money during bad years.</p>
+</section>
+<section id="picking-specific-funds">
+<h2>Picking Specific Funds<a class="headerlink" href="#picking-specific-funds" title="Link to this heading">#</a></h2>
+<p>But the funds I listed above weren’t specific investment funds, just vague descriptions. How do you actually find and pick the specific investments given what’s available to you?</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.bogleheads.org/wiki/Three-fund_portfolio">The Bogleheads article</a> gives some specific funds for what they discuss. I’m sure there are plenty of other similar articles.</p></li>
+<li><p>Look through the list of available funds for funds that have “growth”, “growth and income”, “international”, “total”, and other keywords. It generally is that simple. <a class="reference external" href="https://investor.vanguard.com/mutual-funds/list#/select-funds/asset-class/month-end-returns">Here’s a list of Vanguard’s best funds</a> (<a class="reference external" href="https://investor.vanguard.com/mutual-funds/list#/mutual-funds/asset-class/month-end-returns">or all of them</a>), you’ll see what I mean. While you’re at it, look at the 10 year returns for each fund, or use their fund comparison tool to look at the “growth of $5,000” over 10 years to get a gist for how different funds produce different returns <em>and</em> volatilities. See if you can find funds that don’t track exactly with each other.</p></li>
+<li><p>Use a robo-advisor. At least with Vanguard, their self-managing portfolio service will basically just drop you in a small collection of funds much like this 3-fund portfolio.</p></li>
+<li><p>Hire a human advisor. (If you take this approach, make sure you hire someone with a flat fee rather than an ongoing “management fee”.) <a class="reference external" href="https://www.ramseysolutions.com/retirement/how-to-hire-a-financial-advisor">Here’s a Ramsey article about how to find such a person</a> (they also advertise for, and vet, financial advisors), but you can find these services nearly anywhere. Just be very, very careful who you choose and who you trust, this is a prime field for fraud.</p></li>
+</ul>
+</section>
+<section id="can-t-this-be-simpler">
+<h2>Can’t this be simpler?<a class="headerlink" href="#can-t-this-be-simpler" title="Link to this heading">#</a></h2>
+<p>Yes. Yes it can. If you don’t want to worry about allocations, stock/bond balance ratios, and crap like that, you can go with a simple 1-fund portfolio and choose something that will perform that balancing for you. (Coming soon)</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./investing\keeping-it-simple"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="1-fund-portfolio.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">The 1-Fund Portfolio</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="allocations-and-rebalancing.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Allocations and Rebalancing</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-diversification">Basic Diversification</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#picking-specific-funds">Picking Specific Funds</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-t-this-be-simpler">Can’t this be simpler?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,1 +1,2 @@
-# Heading: policy/the-gold-standard.md
+(the-gold-standard)=
+# The Gold Standard

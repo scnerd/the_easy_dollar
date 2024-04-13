@@ -1,1 +1,2 @@
-# Heading: policy/the-federal-reserve.md
+(the-federal-reserve)=
+# The Federal Reserve

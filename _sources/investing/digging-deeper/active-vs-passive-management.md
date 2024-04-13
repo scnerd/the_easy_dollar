@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper/active-vs-passive-management.md
+(active-vs-passive-management)=
+# Active vs. Passive Management

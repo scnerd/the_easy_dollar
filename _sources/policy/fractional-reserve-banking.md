@@ -1,1 +1,2 @@
-# Heading: policy/fractional-reserve-banking.md
+(fractional-reserve-banking)=
+# Fractional Reserve Banking

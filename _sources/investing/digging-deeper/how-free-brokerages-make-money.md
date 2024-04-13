@@ -1,1 +1,2 @@
-# Heading: investing/digging-deeper/how-free-brokerages-make-money.md
+(how-free-brokerages-make-money)=
+# How Free Brokerages Make Money
