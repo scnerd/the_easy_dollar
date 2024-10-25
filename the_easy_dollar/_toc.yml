@@ -124,6 +124,7 @@ parts:
 #      - file: cryptocurrency/how-to-avoid-fees.md
   - caption: Policy
     chapters:
+      - file: policy/true-cost-of-taxes.md
       - file: policy/the-federal-reserve.md
       - file: policy/fractional-reserve-banking.md
       - file: policy/honest-banking.md
